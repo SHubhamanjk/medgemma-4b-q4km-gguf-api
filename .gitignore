@@ -1,0 +1,11 @@
+.env
+.venv/
+pycache/
+*.pyc
+*.pyo
+*.gguf
+medgemma/
+build/
+llama.cpp-master/build/
+.DS_Store
+Thumbs.db
