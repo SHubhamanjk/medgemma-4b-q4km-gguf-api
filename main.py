@@ -8,7 +8,7 @@ from llama_cpp import Llama
 app = FastAPI()
 
 # Load model once (important)
-model_path = os.getenv("MODEL_PATH")
+model_path = os.getenv("MODEL_PATH") # download model from given drive link
 if not model_path:
     gguf_files = sorted(glob.glob("*.gguf"))
     if not gguf_files:
